@@ -1,0 +1,22 @@
+{
+    nombre: "Cambio de plan",
+    bio: "cambio de plan contempla el ciclo de despliegue y cambio de plan",
+    img: "assets/img/histplanes.png",
+    aparicion: "2018-11-07",
+    url: "https://celulassb.azurewebsites.net/CambioPlan/",
+    casa: "En proceso sin definición"
+}, {
+    nombre: "Info Recambio de equipo",
+    bio: "Esta historia contempla la factibilidad para cambiar un equipo..",
+    img: "assets/img/inforecambio.png",
+    aparicion: "2018-11-06",
+    url: "https://celulassb.azurewebsites.net/InfoRecambioEquipo/",
+    casa: "En proceso servicio de deuda"
+}, {
+    nombre: "Pagos Historico",
+    bio: "Esta historia contempla los 12 últimos pagos historicos",
+    img: "assets/img/histhistorico.png",
+    aparicion: "2018-11-06",
+    url: "https://celulassb.azurewebsites.net/historicopago/",
+    casa: "Terminada"
+}
