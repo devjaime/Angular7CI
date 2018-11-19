@@ -10,7 +10,7 @@ export class HeroesService {
     {
       nombre: "Boleta Ecológica",
       bio: "En esta historia se cambia el estado de boleta papel a boleta ecológica, junto con la actualización de mails",
-      img: "assets/img/histboleta.png",
+      img: "assets/img/boletaecologica.png",
       aparicion: "2018-11-18",
       url:"https://celulassb.azurewebsites.net/boletaecologica/",
       casa:"En proceso"
