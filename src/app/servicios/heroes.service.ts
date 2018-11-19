@@ -2,10 +2,19 @@
 import { Injectable } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
 
+
 @Injectable()
 export class HeroesService {
 
   private heroes:Heroe[] = [
+    {
+      nombre: "Boleta Ecológica",
+      bio: "En esta historia se cambia el estado de boleta papel a boleta ecológica, junto con la actualización de mails",
+      img: "assets/img/histboleta.png",
+      aparicion: "2018-11-18",
+      url:"https://celulassb.azurewebsites.net/boletaecologica/",
+      casa:"En proceso"
+    },
     {
       nombre: "Cambio de plan",
       bio: "cambio de plan contempla el ciclo de despliegue y cambio de plan",
@@ -33,11 +42,16 @@ export class HeroesService {
   ];
 
   constructor(private http: HttpClient) {
-    console.log("Servicio listo para usar!!!");
-    this.http.get('./assets/datos.json').subscribe(data => {
-      console.log(data, 'tu json');
-
-     });
+    console.log('Servicio listo para usar!!!');
+     /*fetch('assets/datos.json').then(response => {
+      return response;
+      }).then(data => {
+      // Work with JSON data here
+      console.log('datos' + data;
+      }).catch(err => {
+        console.log('error en el file' + err);
+      // Do something for an error here
+      });*/
   }
 
 

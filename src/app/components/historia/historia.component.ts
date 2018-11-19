@@ -11,8 +11,9 @@ export class HistoriaComponent implements OnInit {
 
   heroes: Heroe[] = [];
 
-  constructor( private _heroesService:HeroesService,
-               private router:Router
+  constructor(
+               private _heroesService: HeroesService,
+               private router: Router
                 ) {
     // console.log("constructor");
   }
@@ -22,7 +23,7 @@ export class HistoriaComponent implements OnInit {
     // console.log( this.heroes );
   }
 
-  verHeroe( idx:number ){
+  verHeroe( idx: number ) {
     this.router.navigate( ['/heroe',idx] );
   }
 

@@ -3,6 +3,8 @@
     bio: "cambio de plan contempla el ciclo de despliegue y cambio de plan",
     img: "assets/img/histplanes.png",
     aparicion: "2018-11-07",
+
+
     url: "https://celulassb.azurewebsites.net/CambioPlan/",
     casa: "En proceso sin definición"
 }, {
